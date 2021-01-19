@@ -1,0 +1,426 @@
+html {
+	
+
+}
+body {
+	background: url(img/background.png) repeat;
+	background-color: #f6f5e3;
+	width: 100%;
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+	color: #969696;
+}
+
+a {
+	color: #d88304;	
+}
+a:hover {
+	text-decoration: none;
+}
+.wraper {
+	min-width: 1060px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	font-size: 1.2em;
+	color: #969696;
+	line-height: 1.8;
+}
+/*--------------header-----------*/
+header.top {
+	background-color: #a24121;
+	height: 90px;
+}
+	header.top h1 {
+		background: url(img/logo_Happy_Nanny.png) no-repeat top left;
+		font-family: "Conv_Romy Caps"; 
+		font-size: 6em;
+		color: #ffffff;
+		padding: 0 55px 0 105px;
+		float: left;
+		height: 90px;
+		line-height: 1.2;
+	}
+	header.top nav {
+		padding-top: 25px;
+		padding-right: 40px;
+		float: right;
+	}
+	header.top a {
+		font-family: 'Conv_DINEngschriftStd';
+		font-size: 2em;
+		text-transform: uppercase;
+		color: #f1f0de;
+		text-decoration: none;
+	}
+	header.top a:hover {
+		color: #d88304;	
+	}
+	header.top ul li {
+		display: inline-block;
+		float: left;
+		padding: 0 12px;
+		border-right: 1px solid #6d170c;
+		border-left: 1px solid #c6794b;
+	}
+	header.top ul li:first-child {
+		border-left: none;
+	}
+	header.top ul li:last-child {
+		border-right: none;
+	}
+
+/*----------find_nanny----------*/
+.find_nanny {
+	height: 420px;
+	background: url(img/find_nanny_header_background.png) no-repeat top right;	
+	background-color: #bfb9b2;
+	margin-top: 25px;
+	font-family:'Conv_DINEngschriftStd';
+}
+.find_nanny_content {
+	background: url(img/find_nanny_hands.png) no-repeat top left;
+	height: 420px;
+}
+.find_nanny_header {
+	padding: 85px 40px 35px 35px;
+	width: 35%;
+	min-width: 430px;
+	background: url(img/find_nanny_shadow.png) bottom left no-repeat;
+	line-height: 0.9;
+}
+.big_uppercase {
+	font-family: 'Conv_DINEngschriftStd';
+	font-size: 6em;
+	text-transform: uppercase;
+}
+.small_uppercase {
+	font-family: 'Conv_DINEngschriftStd';
+	font-size: 1.6em;
+	text-transform: uppercase;
+	color: #c03d07;
+}
+.white {
+	font-family: 'Conv_MarketingScript';
+	font-size: 3.3em;
+	color: #f1f0de;
+}
+.search_form {
+	padding-left: 35px;
+	font-family: 'Conv_DINEngschriftStd';
+	line-height: 1.3;
+}
+.search_form legend {
+	font-size: 2.1em;
+	text-transform: uppercase;
+	color: #4c4c4c;
+}
+.search_form legend span {
+	color: #797979;
+}
+.search_form_footnote {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	color: #797979;
+}
+.search_form_footnote .dark_grey {
+	color: #4c4c4c;
+}
+.search_field {
+	height: 60px;
+	width: 276px;
+	background: url(img/search_field.png) no-repeat bottom left;
+	border: none;
+	font-family: Arial;
+	font-size: 1.3em;
+	color: #797979;
+	margin-right: 5px;
+	text-indent: 15px;
+}
+.search_button {
+	width: 110px;
+	height: 60px;
+	background: url(img/search_button.png) no-repeat bottom left;
+	border: none;
+	text-indent: -9999px;
+}
+.search_button:hover {
+	background: url(img/search_button_hover.png) no-repeat bottom left;
+}
+.search_button:active {
+	background: url(img/search_button_active.png) no-repeat bottom left;
+}
+/*-------ABC----------*/
+.abc {
+	margin-top: 25px;
+	overflow: hidden;
+}
+.parents, .babysitters, .resources {
+	width: 33%;
+	float: left;
+	height: 160px;
+}
+.parents {
+	background: url(img/a_background.png) no-repeat top left;
+}
+.babysitters {
+	margin-right: 0.5%;
+	margin-left: 0.5%;
+	background: url(img/b_background.png) no-repeat top left;
+}
+.resources {
+	margin-right: 0;
+	float: right;
+	background: url(img/c_background.png) no-repeat top left;
+}
+.content_columns {
+	clear: left;
+}
+.abc p, .abc h2 {
+	margin-left: 140px;
+	padding-right: 20px;
+}
+.abc h2 {
+	color: #f1f0de;
+	font-size: 3em;
+	font-family: 'Conv_MarketingScript';
+	background: url(img/abc_shadow.png) no-repeat bottom right;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	text-shadow: 2px 3px 3px rgba(0,0,0,0.3);
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.abc p {
+	margin-top: -7px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: #ffffff;
+	background: url(img/abc_arrow.png) no-repeat top left;
+	padding-left: 17px;
+}
+.abc a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.abc a:hover {
+	text-decoration: none;
+}
+/*------------content_columns----------*/
+.content_columns {
+	margin-top: 30px;
+	overflow: hidden;
+}
+.content_columns_welcome, .content_columns_learn_and_play, .content_columns_featured {
+	width: 33.3%;
+	box-sizing: content-box;
+	float: left;
+}
+.content_columns h3, 
+.content_columns p, 
+.content_columns ul, 
+.content_columns img {
+	margin: 0 10px;
+}
+.content_columns h3 {
+font-family: 'Conv_DINEngschriftStd';
+font-size: 2.5em;
+color: #712c16;
+text-transform: uppercase;
+background: url(img/content_dotes.png) bottom left repeat-x;
+line-height: 1.2;
+}
+span.orange {
+	color: #a14021;
+}
+.content_columns header {
+	margin-bottom: 15px;
+}
+header .footnote {
+	font-family: 'Conv_GothamRnd-Medium';
+	color: #9f9f9f;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+.content_columns_welcome img, .content_columns_featured img {
+	padding: 4px;
+	border: 1px solid #dedddd;
+	background-color: #ffffff;
+	box-shadow: 0 5px 0 rgba(0,0,0,0.1);
+}
+.content_columns_featured img, .content_columns_learn_and_play img {
+	float: left;
+}
+.short_article {
+	clear: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+p.img_legend {
+	font-weight: bold;
+	background: url(img/content_dotes.png) bottom left repeat-x;
+	color: #606060;
+	padding-bottom: 16px;
+	line-height: 1.3;
+	margin-top: 12px;
+}
+.content_columns_welcome a{
+	display: inline-block;
+	margin: 11px 10px 0 10px;
+}
+.content_columns_featured h4 {
+	font-weight: bold;
+	color: #606060;
+	padding-top: 3px;
+	padding-bottom: 15px;
+}
+.content_columns_featured ul {
+	display: inline-block;
+	clear: left;
+	margin-top: 30px;
+}
+.content_columns_featured li {
+	height: 28px;
+	background: url(img/content_dotes.png) bottom left repeat-x, url(img/x.png) no-repeat bottom left;
+	padding-top: 2px;
+	padding-left: 40px;
+}
+/*-----------bottom--------------*/
+.quarter {
+	width: 25%;
+	float: left;
+	box-sizing: content-box;
+}
+.bottom {
+	overflow: hidden;
+	clear: left;
+	background-color: #bab5af;
+	border-top: 2px solid #8d8a87;
+	margin-top: 30px;
+	font-size: 0.9em;
+	color: #606060;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-bottom: 6px;
+}
+.bottom a {
+	color: #ffffff;
+}
+.bottom header {
+	background-color: #c1bdb7;
+	margin: 10px 10px 2px 10px;
+	padding: 10px 17px 10px 10px;
+	line-height: 1;
+}
+.bottom header h4 {
+	font-family: 'Conv_DINMittelschriftStd';
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 1.6em;
+}
+.bottom header p {
+	font-family: 'Conv_kievitbold';
+	color: #95938f;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+.content {
+	margin-top: 20px;
+	padding: 0 10px 15px 10px;
+}
+.bottom_success_stories .marker {
+	background: url(img/success_stories_marker.png) no-repeat center right;
+}
+.bottom_latest_reviws .marker {
+	background: url(img/latest_reviws_marker.png) no-repeat center right;
+}
+.bottom_about .marker {
+	background: url(img/about_us_marker.png) no-repeat center right;
+}
+.bottom_become_nanny .marker {
+	background: url(img/become_nanny_marker.png) no-repeat center right;
+}
+.bottom_success_stories img, .bottom_about img {
+	padding: 4px;
+	background-color: #d8d3cc;
+	border: 1px solid #dedddd;
+	float: left;
+	box-shadow: 0 5px 0 rgba(0,0,0,0.1);
+	margin: 0 12px 22px 0;
+}
+.clear {
+	clear: left;
+}
+.heart {
+	padding-left: 52px;
+	background: url(img/about_us_heart.png) no-repeat 10px 0;
+	margin-bottom: 25px;
+}
+.bottom_about span, .bottom_become_nanny span {
+	color: #b9453a;
+	font-weight: bold;
+	font-style: italic;
+}
+a.read_more {
+	background: url(img/read_more.png) no-repeat center left;
+	padding-left: 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+a:hover.read_more {
+	text-decoration: underline;
+}
+.bottom_become_nanny ul {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.bottom_become_nanny ul li {
+	background: url(img/read_more.png) no-repeat center left;
+	padding-left: 20px;
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.bottom_about img {
+	padding: 4px;
+	background-color: #d8d3cc;
+	border: 1px solid #dedddd;
+	float: left;
+	box-shadow: 0 5px 0 rgba(0,0,0,0.1);
+	margin: 0 12px 19px 0;
+}
+footer {
+	clear: left;
+	margin-top: 20px;	
+	text-align: center;
+	line-height: 1.3;
+}
+footer nav ul{
+display: inline-block;
+}
+footer li {
+	display: inline-block;
+	float: left;
+	color: #969696;
+}
+footer li a {
+	color: #969696;
+	padding-right: 7px;
+	text-decoration: none;
+}
+footer li a:hover {
+	text-decoration: underline;
+}
+footer li:after {
+	content: "//";
+	padding-right: 7px;
+}
+footer li:last-child:after {
+	content: none;
+}
+footer p {
+	clear: left;
+}
